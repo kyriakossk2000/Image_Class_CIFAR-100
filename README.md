@@ -1,4 +1,7 @@
-# Image_Class_CIFAR-100
-Image Classification on CIFAR100 dataset using CNNs. Part of MLP course University of Edinburgh.
-## Description:
-Analyzed the Vanishing Gradients Problem in VGG models with 8 and 38 hidden layers. Then, explored solutions including batch normalization and residual connections. Utilized PyTorch on GCP
+# Deep Learning: Mitigating Gradient Issues in VGG Models
+## Description 
+Investigation into the vanishing/exploding gradient problem during the training of deep VGG networks on CIFAR100. This study explores the efficacy of **batch normalization** and **residual connections** in addressing these gradient problems, facilitating the successful training of notably deeper models.
+
+## Key Findings
+- Implemented solutions enhance training stability and enable deeper models to outperform shallower counterparts.
+- Theoretical and practical aspects of batch normalization and residual connections were analyzed and implemented.
